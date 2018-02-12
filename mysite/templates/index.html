@@ -1,0 +1,14 @@
+<html>
+    <h1>Cars Index</h1>
+
+    <button onClick="window.location.href='/cars/make'">Make New Car</button><br/>
+    <br/>
+    {% for car in cars %}
+        <b>Car ID:</b> {{ car.id }}<br/>
+        Created: {{ car.created }}<br/>
+        <a href="/cars/view/{{ car.id }}">View Details</a><br/>
+        <br/>
+    {% endfor %}
+
+
+</html>
