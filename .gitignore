@@ -2,3 +2,4 @@ env/
 elasticsearch-5.1.1/
 */__pycache__/
 */migrations/
+*/db.sqlite3
