@@ -34,7 +34,7 @@ def make(request):
     owner_name = owner_names[randint(a=0, b = len(owner_names)-1)]
 
     car = Car(
-        name= owner_name,
+        owner_name= owner_name,
         color=car_color,
         type=car_type,
         description=car_desc,
