@@ -26,7 +26,7 @@ def index(request):
 def make(request):
     colors = ["Red", "Blue", "Pink", "Magenta"]
     descriptions = ["Great car", "Awful car", "Ran over a hobo with it"]
-    owner_names = ["Ali", "Tommy", "Dan", "Catherine"]
+    owner_names = ["Ali", "Tommy", "Dan", "Catherine", "Alex"]
 
     car_type = [1,2,4][randint(a=0, b=2)]
     car_color = colors[randint(a=0, b=len(colors)-1)]
